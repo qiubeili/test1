@@ -13,6 +13,7 @@
 		13EBD79925D2FE110061D1C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13EBD79825D2FE110061D1C3 /* Preview Assets.xcassets */; };
 		13EBD7A425D2FE110061D1C3 /* PhotoCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EBD7A325D2FE110061D1C3 /* PhotoCameraTests.swift */; };
 		13EBD7AF25D2FE110061D1C3 /* PhotoCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EBD7AE25D2FE110061D1C3 /* PhotoCameraUITests.swift */; };
+		13EBD7C025D303B50061D1C3 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EBD7BF25D303B50061D1C3 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		13EBD7AA25D2FE110061D1C3 /* PhotoCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13EBD7AE25D2FE110061D1C3 /* PhotoCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCameraUITests.swift; sourceTree = "<group>"; };
 		13EBD7B025D2FE110061D1C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13EBD7BF25D303B50061D1C3 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				13EBD79125D2FE0D0061D1C3 /* PhotoCameraApp.swift */,
 				13EBD79325D2FE0D0061D1C3 /* ContentView.swift */,
+				13EBD7BF25D303B50061D1C3 /* ImagePicker.swift */,
 				13EBD79525D2FE110061D1C3 /* Assets.xcassets */,
 				13EBD79A25D2FE110061D1C3 /* Info.plist */,
 				13EBD79725D2FE110061D1C3 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13EBD7C025D303B50061D1C3 /* ImagePicker.swift in Sources */,
 				13EBD79425D2FE0D0061D1C3 /* ContentView.swift in Sources */,
 				13EBD79225D2FE0D0061D1C3 /* PhotoCameraApp.swift in Sources */,
 			);
